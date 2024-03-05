@@ -1,0 +1,490 @@
+@charset "UTF-8";
+/* ---------------------------------------
+テクノロジーページ　技術と性能
+---------------------------------------- */
+
+#technology-page {
+    background-color: #000;
+}
+#technology-page p,
+#technology-page a,
+#technology-page h1{
+    color: #fff;
+}
+
+/* ページビジュアル */
+#technology-page .technology.inner{
+    display: flex;
+    padding: 60px 0;
+}
+#technology-page .technology.inner .flex-left{
+    width: 50%;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+#technology-page .technology.inner .flex-right{
+    width: 50%;
+    margin-right: 20px;
+    box-sizing: border-box;
+
+}
+#technology-page .technology.inner .flex-left .page-title{
+    font-family: fantasy;
+    margin-bottom: 60px;
+}
+#technology-page .technology.inner .flex-left .page-title .en{
+    font-size: 5.0rem;
+    font-weight: normal;
+    display: block;
+}
+#technology-page .technology.inner .flex-left .page-title .ja{
+    font-size: 1.3rem;
+}
+#technology-page .technology.inner .flex-left .text{
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+}
+
+/* -----------------------
+テクノロジー　各技術についての設定
+------------------------ */
+#technology-page .technology-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 335px;
+    gap: 25px;
+    padding: 100px 60px;
+}
+
+#technology-page .technology-container .item{
+    position: relative;
+    border-top: solid 1px #fff;
+    border-left: solid 1px #fff;
+}
+#technology-page .technology-container .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#technology-page .technology-container .item .img2{
+    display: none;
+}
+#technology-page .technology-container .item .text-area{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+#technology-page  .item .page-btn{
+    color: rgb(156, 200, 19);
+    font-weight: bold;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+#technology-page  .item .page-btn::after{
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-width: 2px 2px 0 0;
+    border-style: solid;
+    border-color: rgb(156, 200, 19) rgb(156, 200, 19) transparent transparent;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 8.5px;
+    left: 100px;
+}
+#technology-page .technology-container .item .text-area .title{
+    margin-bottom: 20px;    
+}
+#technology-page .technology-container .item .text-area .title .en{
+    font-size: 4.3rem;
+    line-height: 1.15;
+}
+#technology-page .technology-container .item .text-area .title .ja{
+    font-size: 1.5rem;
+}
+#technology-page .technology-container .item .text-area .text{
+    font-weight: bold;
+}
+
+#technology-page .technology-container .item1{
+    grid-row: 1/3;
+} 
+
+/*---------------------------
+スペシャルコンテンツ 
+----------------------------*/
+#technology-page .special-content{
+    width: 100%;
+    padding: 50px 15px;
+    box-sizing: border-box;
+}
+#technology-page .special-content .main-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#technology-page .special-content .main-title .en{
+    font-size: 4.0rem;
+    font-family: fantasy;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+}
+#technology-page .special-content .main-title .ja{    
+    font-weight: bold;
+    margin-top: 30px;
+}
+#technology-page .special-content .item{
+    max-height: 340px;
+    border-top: solid 1px #fff;
+    border-left: solid 1px #fff;
+    position: relative;
+    margin-bottom: 30px;
+}
+#technology-page .special-content .item a{
+    display: block;
+}
+#technology-page .special-content .item img{
+    width: 100%;
+    max-height: 340px;
+}
+#technology-page .special-content .item .text-area{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+#technology-page .special-content .item .text-area .sub-title{
+    margin-bottom: 20px;
+}
+#technology-page .special-content .item .text-area .title{
+    font-size: 4.5rem;
+    font-weight: normal;
+    font-family: fantasy;
+    letter-spacing: 0.3rem;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+#technology-page .special-content .item .text-area .text{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* -------------------------
+その他のコンテンツ 
+---------------------------*/
+#technology-page .other-content{
+    width: 100%;
+    padding-bottom: 50px;
+    padding: 50px 20px;    
+    box-sizing: border-box;
+}
+#technology-page .other-content .item{
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+#technology-page .other-content .item a{
+    display: block;
+    padding: 40px;    
+}
+#technology-page .other-content .item .title{
+    color: rgb(156, 200, 19);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#technology-page .other-content .item .flex-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#technology-page .other-content .item .flex-item .catalogImg{
+    width: 15%;
+}
+#technology-page .other-content .item .flex-item .title-area{
+    width: 25%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#technology-page .other-content .item .flex-item .title-area .ja{
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+#technology-page .other-content .item .flex-item .title-area .en{
+    font-size: 3.5rem;
+    font-family: fantasy;
+    color: #000;
+    line-height: 1;
+}
+#technology-page .other-content .item .flex-item .text-area{
+    width: 25%;
+    color: #000;
+    font-size: 1.05rem;
+    font-weight: bold;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#technology-page .other-content .item .flex-item .icon-btn{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#technology-page .other-content .item .flex-item .icon-btn .icon{
+    min-width: 50px;
+    height: 50px;
+    border: solid 3px rgb(156, 200, 19);
+    border-radius: 50%;    
+    position: relative;
+    margin-right: 10px;
+}
+#technology-page .other-content .item .flex-item .icon-btn img{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#technology-page .other-content .item .flex-item .icon-btn .btn-title .en{ 
+    font-size: 3.0rem;
+    font-family: fantasy;
+    color: rgb(156, 200, 19);
+}
+#technology-page .other-content .item .flex-item .icon-btn .btn-title .ja{
+    font-size: 1.1rem;
+    color: rgb(156, 200, 19);
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    text-align: center;
+}
+#technology-page .other-content .item .flex-item .icon-btn .btn-title .ja::after{
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-width: 2px 2px 0 0;
+    border-style: solid;
+    border-color: rgb(156, 200, 19) rgb(156, 200, 19) transparent transparent;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    transform: rotate(45deg);
+}
+#technology-page .other-content .item.item2{
+    background-color: rgb(156, 200, 19);
+}
+#technology-page .other-content .item.item2 a{
+    padding: 0;
+    height: auto;
+}
+#technology-page .other-content .item.item2 a img{
+    width: 100%;
+    max-height: 288px;
+    object-fit: cover;
+}
+
+/* -------------------------------------
+SPモード
+-------------------------------------- */
+@media screen and (max-width:940px) {
+    /* テクノロジーページのタイトル */
+    #technology-page .technology.inner {
+        flex-direction: column;
+        padding: 0px 0px 30px 0px;
+    }
+    #technology-page .technology.inner .flex-left{
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    #technology-page .technology.inner .flex-left .page-title{
+        margin-bottom: 20px;
+    }
+    #technology-page .technology.inner .flex-left .page-title .en{
+        font-size: 3.0rem;
+        
+    }
+    #technology-page .technology.inner .flex-left .text{
+        font-size: 0.85rem;
+    }
+    #technology-page .technology.inner .flex-right {
+        width: 100%;
+        text-align: center;
+    }
+    #technology-page .technology.inner .flex-right img{
+        width: 65%;
+    }
+
+    /* それぞれのテクノロジーについて */
+    #technology-page .technology-container{
+        padding: 50px 15px;
+        gap: 10px;
+        grid-template-rows: 300px 300px 300px 300px 300px 300px;
+    }
+    #technology-page .technology-container .item1{
+        grid-column: 1/3;
+        grid-row: auto;
+    }
+    #technology-page .technology-container .item.item1 .text-area{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    #technology-page .item.item1 .page-btn{
+        color: rgb(156, 200, 19);
+        font-weight: bold;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+    }
+    
+    #technology-page .technology-container .item a{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #technology-page .technology-container .item .img1{
+        display: none;
+    }
+    #technology-page .technology-container .item .img2{
+        display: block;
+        height: 300px;
+    }
+    #technology-page .technology-container .item img{
+        height: 150px;
+    }
+    #technology-page .technology-container .item .text-area{
+        position: unset;
+        height: 150px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    #technology-page .technology-container .item .text-area .title .en {
+        font-size: 2.0rem;
+    }
+    #technology-page .technology-container .item .text-area .title .ja{
+        font-size: 1.2rem;
+        
+    }
+    
+    #technology-page .technology-container .item .text-area .text{
+        font-size: 0.85rem;
+    }
+    #technology-page .item .page-btn{
+        bottom: 10px;
+        left: 10px;
+        font-size: 0.85rem;
+    }
+    #technology-page .item .page-btn::after {
+        left: 80px;
+        bottom: 6.0px;
+    }
+
+    /*--------------------
+    その他のコンテンツ 
+    ----------------------*/
+    /* tititle */
+    #technology-page .special-content .main-title .en {
+        font-size: 2.5rem;
+    }
+    #technology-page .special-content .main-title .ja{
+        font-size: 0.85rem;
+    }
+
+    /* その他の技術について */
+    #technology-page .special-content .item {
+        height: 200px;
+    }
+    #technology-page .special-content .item .text-area{
+        top: 15px;
+        left: 15px;
+    }
+    #technology-page .special-content .item .text-area .title {
+        font-size: 2.0rem;
+        margin-bottom: 20px;
+    }
+    #technology-page .special-content .item .text-area .sub-title{
+        font-size: 0.75rem;
+        margin-bottom: 5px;
+    }
+    #technology-page .special-content .item .text-area .text{
+        font-size: 0.85rem;
+        font-weight: normal;
+    }
+    #technology-page .special-content .item img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+
+    /* コンセプトブック */
+    #technology-page .other-content {
+        padding: 0px 0px 1px 0px;
+    }
+    #technology-page .other-content .item a{
+        padding: 20px 0px;
+    }
+    #technology-page .other-content .item .title{
+        font-size: 0.85rem;
+        text-align: center;
+    }
+    #technology-page .other-content .item .flex-item{
+        width: 375px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    #technology-page .other-content .item .flex-item .catalogImg {
+        width: 70px;
+    }
+    #technology-page .other-content .item .flex-item .title-area{
+        width: 130px;
+    }
+    #technology-page .other-content .item .flex-item .title-area .ja {
+        font-size: 0.8rem;
+    }
+    #technology-page .other-content .item .flex-item .title-area .en{
+        font-size: 1.8rem;
+    } 
+    #technology-page .other-content .item .flex-item .text-area{
+        width: 130px;
+        font-size: 0.75rem;
+    }
+    #technology-page .other-content .item .flex-item .icon-btn {
+        width: 100%;
+        justify-content: center;
+        padding-left: 0;
+    }
+    #technology-page .other-content .item .flex-item .icon-btn .icon{
+        min-width: 30px;
+        height: 30px;
+        border: solid 1.5px rgb(156, 200, 19);
+    }
+    #technology-page .other-content .item .flex-item .icon-btn .icon img{
+        width: 20px;
+        height: 20px;
+    }
+    #technology-page .other-content .item .flex-item .icon-btn .btn-title .en{
+        font-size: 1.5rem;
+    }
+    #technology-page .other-content .item .flex-item .icon-btn .btn-title .ja{
+        font-size: 0.75rem;
+    }
+    #technology-page .other-content .item .flex-item .icon-btn .btn-title .ja::after{
+        width: 5px;
+        height: 5px;
+        bottom: 2px;
+        right: -4px;
+    }
+
+    /* ---------------------
+    フッター
+    ---------------------- */
+    #footer .footer-logoImg{
+        margin-top: 40px;
+    }
+} 
