@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* -----------------------------------------
+NEWSページ
+------------------------------------------ */
+
+/* -----------------------------------------
+mainvisual
+------------------------------------------ */
+#news-mainvisual{
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/news.manvisual.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    /* filter: brightness(80%); */
+    &::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        animation: darken 4.5s ease 1.5s forwards;
+    }
+    
+    >.container{
+        position: absolute;
+        z-index: 5;
+        >.page-title{
+            font-size: 2.3rem;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 10px #949494;
+            opacity: 0;
+            animation: newsFade 1.5s ease-in 1.5s forwards;
+        }
+        >.ja{
+            text-shadow: 2px 2px 10px #949494;
+            font-size: 0.85rem;
+            opacity: 0;
+        }
+        >.animation1{
+            margin-bottom: 40px;            
+            animation: newsFade 1.5s ease-in 3s forwards;
+        }
+        >.animation2{
+            animation: newsFade 1.5s ease-in 4.5s forwards;
+        }
+    }
+}
+@keyframes newsFade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes darken{
+    0%{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    100%{
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+}
+
+/* -----------------------------------------
+news-contents
+------------------------------------------ */
+#news-contents{    
+    padding: 50px ;
+    >.news-list{
+        
+        border: solid 1px #ccc;
+        >li{
+            border-bottom: solid 1px #ccc;
+            width: 100%;
+            >a{
+                display: block;
+                padding: 10px 30px;
+                >time{
+                    font-size: 0.7rem;
+                    color: #8f8f8f;
+                }
+                &:hover{
+                    opacity: 0.65;
+                }
+            }
+            &:last-child{
+                border-bottom: 0;
+            }
+        }
+    }
+}
+/* -----------------------------------------
+news-numberArea
+------------------------------------------ */
+#news-numberArea{
+    margin-bottom: 100px;
+    >ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        >li{
+            margin: 2.5px;
+            >a{
+                display: block;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.2s;                
+                border: solid 1px #ccc;
+                &:hover{
+                    background-color: #ff004b;
+                    color: #fff;
+                    border: none;
+                }
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        >.box{
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        >.bk-pink{
+            background-color: #ff004b;
+            color: #fff;
+            border: none;
+        }
+    }
+}
+
+/* -----------------------------------------
+SP width 1000px 以下
+------------------------------------------ */
+@media screen and (max-width:1000px) {
+    #news-contents {
+        padding: 50px 20px;
+    }
+    .text{
+        font-size: 0.7rem;
+    }
+    #news-numberArea{
+        padding: 0 20px;
+    }
+}

@@ -43,6 +43,30 @@ ul{
 .bk-pink{
     background-color: rgb(255, 0, 64);
 }
+#hierarchy{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #f0efef;
+    >.container{
+        display: flex;
+        >li{
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            font-size: 0.75rem;
+            color: #848484;
+            >a{
+                display: flex;
+                align-items: center;
+                position: relative;
+                >img{
+                    width: 15px;
+                }
+            }            
+        }        
+    }    
+}
 
 /* -----------------------------------------
 header ヘッダー
