@@ -27,8 +27,27 @@ window.addEventListener('scroll',function(){
 })
 
 // ハンバーガーメニュー
-
-// ドロップダウンメニュー
+// ドロップダウンメニュー　通常時
+const headITEM = document.querySelector('.js-header-doropMenu-ITEM');
+const doropM = document.querySelector('.js-dropMenu');
+const coinAkse = document.querySelector('.js-coinAkse');
+const coinAkse2 = document.querySelector('.js-coinAkse2');
+const doropC =document.querySelector('.js-dropCoin');
+const Dmanu =document.querySelector('.item-dropMenu');
+headITEM.addEventListener('mouseover',function(){
+    doropM.classList.add('active');
+})
+coinAkse.addEventListener('mouseover',function(){
+    doropC.classList.add('active');
+})
+coinAkse2.addEventListener('mouseover',function(){
+    doropC.classList.remove('active');
+})
+Dmanu.addEventListener('mouseleave',function(){
+    doropC.classList.remove('active');
+    doropM.classList.remove('active');
+})
+// SPの時 ドロップダウンメニュー
 const humBtn = document.querySelector('.SP-hum-btn');
 const headNavi = document.querySelector('#SP-headNavi');
 const backBtn =document.querySelector('.SP-back-btn');
