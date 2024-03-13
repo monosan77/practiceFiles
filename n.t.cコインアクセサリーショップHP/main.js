@@ -2,26 +2,28 @@
 // header アニメーション
 // --------------------------
 const header = document.querySelector('#header');
-const mainvisual = document.querySelector('#mainvisual');
+
 const windH = innerHeight;
 
 window.addEventListener('scroll',function(){
     const amoutScroll = window.scrollY;
     if(amoutScroll > 250){
-        header.classList.add('active');
-        mainvisual.classList.add('active');
+        header.classList.add('active');        
     }
+    if(amoutScroll > 270){
+      header.classList.add('active1');      
+  }
     if(amoutScroll > 500){
-        header.classList.add('move');
-        // mainvisual.classList.add('active');
+        header.classList.add('move');        
     }
     if(amoutScroll <= 250){
-        header.classList.remove('active');
-        mainvisual.classList.remove('active');
+        header.classList.remove('active');        
     }
+    if(amoutScroll <= 270){
+      header.classList.remove('active1');      
+  }
     if(amoutScroll <= 500){
-        header.classList.remove('move');
-        // mainvisual.classList.remove('active');
+        header.classList.remove('move');        
     }
     console.log(amoutScroll)
 })
