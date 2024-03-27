@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scssを使ってみたよ～</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__contactLine">
+        <ul>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">お問い合わせ</a></li>
+        </ul>
+      </div>
+
+      <div class="header__logoLine wrapper">
+        <div class="header__logoLine__serch">
+          <img class="icon-size" src="./img/虫眼鏡アイコン9.png" alt="" />
+          <p>検索する</p>
+        </div>
+        <a href="./index.html" class="header__logoLine__logo">
+          <img src="./img/logo_325x49.webp" alt="" />
+        </a>
+        <div class="header__logoLine__members">
+          <a href=""
+            ><img class="icon-size" src="./img/人物の枠線アイコン.png" alt=""
+          /></a>
+          <a href=""
+            ><img class="icon-size" src="./img/ハートのマーク5.png" alt=""
+          /></a>
+          <a href=""
+            ><img
+              class="icon-size"
+              src="./img/ショッピングの無料アイコン　1.png"
+              alt=""
+          /></a>
+        </div>
+      </div>
+
+      <div class="header__navLine wrapper">
+        <ul>
+          <li><a href="">新着アイテム</a></li>
+          <li><a href="">ブランドから探す</a></li>
+          <li><a href="">カテゴリから探す</a></li>
+          <li><a href="">TORATOのこだわり</a></li>
+          <li><a href="">BLOG</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- メインビジュアルのスワイパー -->
+      <div class="mainvisual wrapper">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <a href="">
+                <img src="./img/salePOP_1300x640.webp" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="./img/blackBag.webp" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="./img/blackEmber.webp" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="./img/cote&ciel.webp" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="./img/epoi.webp" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="./img/newBag.webp" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="./img/オリジナルぐっつ.webp" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="./img/クーポンPOP.webp" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="./img/ジーサンズ.webp" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <img src="./img/ファッションバッグ.webp" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- サブビジュアル -->
+      <div class="subvisual wrapper">
+        <a href="">
+          <img src="./img/オリジナルぐっつ.webp" alt="" />
+          <p>
+            【CIEオリジナルボトルノベルティフェア開催中！！】15,000円（税込）のCIEの商品を購入で先着プレゼント
+          </p>
+        </a>
+        <a href="">
+          <img src="./img/epoi.webp" alt="" />
+          <p>
+            一流ブランドとして、本物の良さを知る世界中の人々に愛され続けているブランド【GOLD
+            PFEIL】
+          </p>
+        </a>
+        <a href="">
+          <img src="./img/blackBag.webp" alt="" />
+          <p>
+            デザイン性に機能性をプラスしたバックを多くの方と共有するためのバックブランド【AS2OV（アソップ）】
+          </p>
+        </a>
+      </div>
+
+      <!-- カテゴリー -->
+      <div class="category">
+        <h1 class="section-title">
+          <span class="en">CATEGORY</span><br />
+          <span class="ja">カテゴリー</span>
+        </h1>
+        <div class="category__container wrapper">
+          <a class="category__container__item">
+            <img src="./img/sample_bag.webp" alt="" />
+            <h3>
+              <span class="en">BUSINESS</span><br />
+              <span class="ja">ビジネスバック</span>
+            </h3>
+          </a>
+          <a class="category__container__item">
+            <img src="./img/sample_bag2.webp" alt="" />
+            <h3>
+              <span class="en">BUSINESS</span><br />
+              <span class="ja">ビジネスバック</span>
+            </h3>
+          </a>
+          <a class="category__container__item">
+            <img src="./img/sample_bag3webp.webp" alt="" />
+            <h3>
+              <span class="en">BUSINESS</span><br />
+              <span class="ja">ビジネスバック</span>
+            </h3>
+          </a>
+          <a class="category__container__item">
+            <img src="./img/sample_bag4.webp" alt="" />
+            <h3>
+              <span class="en">BUSINESS</span><br />
+              <span class="ja">ビジネスバック</span>
+            </h3>
+          </a>
+          <a class="category__container__item">
+            <img src="./img/sample_bag5.webp" alt="" />
+            <h3>
+              <span class="en">BUSINESS</span><br />
+              <span class="ja">ビジネスバック</span>
+            </h3>
+          </a>
+          <a class="category__container__item">
+            <img src="./img/sample_bag6.webp" alt="" />
+            <h3>
+              <span class="en">BUSINESS</span><br />
+              <span class="ja">ビジネスバック</span>
+            </h3>
+          </a>
+        </div>
+      </div>
+
+      <!-- トートバック -->
+      <div class="toteBag wrapper">
+        <h1 class="section-title">
+          <span class="en">TOTE BAG</span><br />
+          <span class="ja">春先に持ちたいトートバック</span>
+        </h1>
+        <div class="toteBag__container">
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag2.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag3webp.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag4.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag5.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag6.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag2.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag3webp.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag4.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag5.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag6.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- ビジネスバック -->
+      <div class="toteBag wrapper">
+        <h1 class="section-title">
+          <span class="en">BUSINESS BAG</span><br />
+          <span class="ja">定番ビジネスバック</span>
+        </h1>
+        <div class="toteBag__container">
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag2.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag3webp.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag4.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag5.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag6.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag2.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag3webp.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag4.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag5.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag6.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- ピックアップ -->
+      <div class="toteBag wrapper">
+        <h1 class="section-title">
+          <span class="en">PICKUP</span><br />
+          <span class="ja">TORATOが選ぶBRIFING SELECTION</span>
+        </h1>
+        <div class="toteBag__container">
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag2.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag3webp.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag4.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag5.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag6.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag2.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag3webp.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag4.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag5.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+          <a href="" class="toteBag__container__item">
+            <img src="./img/sample_bag6.webp" alt="" />
+            <div class="toteBag__container__item--textArea">
+              <p class="title">SML</p>
+
+              <p class="text">
+                バッグジャック トートバッグ tote bag OV22S bagjack 09199
+              </p>
+
+              <p class="price">¥15,400<span>(税込み)</span></p>
+            </div>
+          </a>
+        </div>
+        <hr size="1px" color="#ccc" />
+      </div>
+
+      <!-- インスタグラム -->
+      <div class="instagram wrapper">
+        <h1 class="section-title">
+          <span class="en">INSTAGRAM</span><br />
+          <span class="ja">インスタグラム</span>
+        </h1>
+        <div class="instagram__container">
+          <a href="" class="instagram__container__item">
+            <img src="./img/Insta1.jpg" alt="" />
+          </a>
+          <a href="" class="instagram__container__item">
+            <img src="./img/Insta3.jpg" alt="" />
+          </a>
+          <a href="" class="instagram__container__item">
+            <img src="./img/Insta4.jpg" alt="" />
+          </a>
+          <a href="" class="instagram__container__item">
+            <img src="./img/Insta6.jpg" alt="" />
+          </a>
+          <a href="" class="instagram__container__item">
+            <img src="./img/Insta7.jpg" alt="" />
+          </a>
+          <a href="" class="instagram__container__item">
+            <img src="./img/Insta10.jpg" alt="" />
+          </a>
+          <a href="" class="instagram__container__item">
+            <img src="./img/Insta1.jpg" alt="" />
+          </a>
+          <a href="" class="instagram__container__item">
+            <img src="./img/Insta3.jpg" alt="" />
+          </a>
+          <a href="" class="instagram__container__item">
+            <img src="./img/Insta4.jpg" alt="" />
+          </a>
+          <a href="" class="instagram__container__item">
+            <img src="./img/Insta6.jpg" alt="" />
+          </a>
+        </div>
+        <div class="moreBtn">
+          <a href="">more</a>
+        </div>
+      </div>
+
+      <!-- BLOGS -->
+      <div class="blogs wrapper">
+        <h1 class="section-title">
+          <span class="en">BLOGS</span><br />
+          <span class="ja">ブログ</span>
+        </h1>
+        <div class="blogs__container">
+          <a href="" class="blogs__container__item">
+            <img src="./img/blackBag.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="blogs__container__item">
+            <img src="./img/blackEmber.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="blogs__container__item">
+            <img src="./img/epoi.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="blogs__container__item">
+            <img src="./img/newBag.webp" alt="" />
+            <p>2024.03.21</p>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="blogs__container__item">
+            <img src="./img/salePOP_1300x640.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="blogs__container__item">
+            <img src="./img/epoi.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="blogs__container__item">
+            <img src="./img/クーポンPOP.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="blogs__container__item">
+            <img src="./img/オリジナルぐっつ.webp" alt="" />
+            <p>2024.03.21</p>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="blogs__container__item">
+            <img src="./img/ファッションバッグ.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="blogs__container__item">
+            <img src="./img/cote&ciel.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="blogs__container__item">
+            <img src="./img/epoi.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="blogs__container__item">
+            <img src="./img/blackBag.webp" alt="" />
+            <p>2024.03.21</p>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+        </div>
+        <div class="moreBtn">
+          <a href="">more</a>
+        </div>
+      </div>
+
+      <!-- coverage -->
+      <div class="coverage wrapper">
+        <h1 class="section-title">
+          <span class="en">COVERAGE</span><br />
+          <span class="ja">取材記事/インタビュー</span>
+        </h1>
+        <div class="coverage__container">
+          <a href="" class="coverage__container__item">
+            <img src="./img/cover1.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="coverage__container__item">
+            <img src="./img/cover2.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="coverage__container__item">
+            <img src="./img/covewr3.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+          <a href="" class="coverage__container__item">
+            <img src="./img/cover4.webp" alt="" />
+            <time>2024.03.21</time>
+            <p>
+              A SHARED SENSE OF
+              VALUE(共有する価値観)をテーマにしたデザインを世界に発信しているバッグブランド【AS2OV(アッソブ)】
+            </p>
+          </a>
+        </div>
+        <div class="moreBtn">
+          <a href="">more</a>
+        </div>
+      </div>
+
+      <!-- infomation -->
+      <div class="infomation wrapper">
+        <h1 class="section-title">
+          <span class="en">INFOMATION</span><br />
+          <span class="ja">お知らせ</span>
+        </h1>
+        <div class="infomation__container">
+          <ul>
+            <li>
+              <time>2024.03.22</time>
+              <a href=""> 一部決済機能の停止（メンテナンス）について</a>
+              <div class="box"></div>
+            </li>
+            <li>
+              <time>2024.03.22</time>
+              <a href="">天候不良の影響による配送遅延・停止について</a>
+              <div class="box"></div>
+            </li>
+
+            <li>
+              <time>2024.03.22</time>
+              <a href="">天候不良の影響による配送遅延・停止について</a>
+              <div class="box"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ブランド -->
+      <div class="brand">
+        <h1 class="section-title">
+          <span class="en">BLAND</span><br />
+          <span class="ja">ブランド</span>
+        </h1>
+        <div class="brand__container wrapper">
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo1.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo2.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo3.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo4.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo5.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo6.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo7.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo8.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo1.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo2.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo3.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo4.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo5.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo6.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo7.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo8.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo1.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo2.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo3.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo4.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo5.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo6.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo7.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo8.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo1.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo2.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo3.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo4.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo5.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo6.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo7.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo8.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo1.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo2.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo3.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo4.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo5.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo6.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo7.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo8.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo1.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo2.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo3.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo4.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo5.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo6.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo7.webp" alt="" />
+          </a>
+          <a href="" class="brand__container__logo">
+            <img src="./img/bracd.logo8.webp" alt="" />
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="abouPurchase wrapper">
+        <div class="payment">
+          <h3 class="aboutPurchase__title">お支払いについて</h3>
+          <p class="aboutPurchase__text">
+            各種クレジットカード、Amazonペイ、後払い、その他各種Payサービス、コンビニ払い、代金引換でのお支払いが可能です。
+          </p>
+          <div class="payment__card">
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+            <img src="./img/patment_logo.webp" alt="" />
+          </div>
+        </div>
+        <div class="delivery">
+          <h3 class="aboutPurchase__title">配送について</h3>
+          <p class="aboutPurchase__text">
+            佐川急便にて配送、お届け日時のご指定も承っております。
+            平日14時までのご注文は即日出荷いたします。
+          </p>
+          <div class="delivery__timetable">
+            <img src="./img/pc_free-shipping.avif" alt="" />
+            <div class="delivery__timetable__grid">
+              <p class="item item1">午前中（8時～12時）</p>
+              <p class="item">12時～14時</p>
+              <p class="item">14時～16時</p>
+              <p class="item">16時～18時</p>
+              <p class="item">18時～20時</p>
+              <p class="item">18時～21時</p>
+              <p class="item">19時～21時</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__container">
+        <div class="wrapper">
+          <div class="footer__navi">
+            <ul>
+              <li><a href="">よくある質問</a></li>
+              <li><a href="">お問い合わせ</a></li>
+              <li><a href="">修理の受付</a></li>
+              <li><a href="">キャンセル・返品について</a></li>
+            </ul>
+            <ul>
+              <li><a href="">配送について</a></li>
+              <li><a href="">お支払いについて</a></li>
+              <li><a href="">特定商取引に関する法律に基づく表記</a></li>
+              <li><a href="">イエコレクション</a></li>
+            </ul>
+            <ul>
+              <li><a href="">運営会社</a></li>
+              <li><a href="">プライバシーポリシー</a></li>
+              <li><a href="">サイトポリシー</a></li>
+              <li><a href="">ご利用規約</a></li>
+            </ul>
+          </div>
+          <div class="footer__logo">
+            <a class="logo" href=""
+              ><img src="./img/logo_325x49.webp" alt=""
+            /></a>
+            <p class="copyright">&copy; FORGE INC.</p>
+            <ul class="sns">
+              <li>
+                <a href=""
+                  ><img src="./img/twitterのフリーアイコン素材.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./img/twitterのフリーアイコン素材.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./img/twitterのフリーアイコン素材.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./img/twitterのフリーアイコン素材.png" alt=""
+                /></a>
+              </li>
+            </ul>
+            <p class="text">
+              TORATOは、全ての通信を、次世代暗号技術による最高強度のSSL通信によって暗号化。安全・安心のショッピングを実現しています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      // Optional parameters
+      // direction: "horizontal",
+      loop: true,
+      speed: 1000,
+      // Navigation arrows
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+</html>
